@@ -30,7 +30,7 @@ from dash import Dash, dcc, html, Input, Output, dash_table
 #      and analytics features something numeric to work with. This is
 #      clearly labeled in the UI as simulated/demo data.
 
-DATA_PATH = "team_standings.csv"
+DATA_PATH = "data/team_standings.csv"
 
 CONFEDERATION_MAP = {
     "Spain": "UEFA", "Netherlands": "UEFA", "Germany": "UEFA", "Uruguay": "CONMEBOL",
